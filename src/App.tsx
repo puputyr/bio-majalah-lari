@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Snowflake = () => {
   const style = {
     left: `${Math.random() * 100}vw`,
