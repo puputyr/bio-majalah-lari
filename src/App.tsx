@@ -53,17 +53,6 @@ export default function App() {
           // Ukuran logo default (mobile) adalah 112px, dan menjadi 128px di layar medium (md) ke atas.
           className="w-28 h-28 md:w-32 md:h-32 rounded-full border-4 border-yellow-300 shadow-lg mb-4"
         />
-
-        <h1 
-          // Ukuran teks default (mobile) adalah 2xl, dan menjadi 3xl di layar medium (md) ke atas.
-          className="text-2xl md:text-3xl font-bold text-white tracking-wide"
-        >
-          Selamat Hari Natal!
-        </h1>
-        <p className="text-gray-300 mb-8 mt-1">
-          Bagikan semangat Natal melalui tautan di bawah ini.
-        </p>
-
         <div 
           // Lebar kontainer tautan akan 100% dari parent, tapi dibatasi.
           // Batas lebar maksimumnya 320px (max-w-sm) di mobile, dan 448px (max-w-md) di layar medium ke atas.
